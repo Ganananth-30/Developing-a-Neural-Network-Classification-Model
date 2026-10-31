@@ -16,35 +16,40 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 ### STEP 1: 
 
-Write your own steps
+Load and Preprocess the Dataset:
 
+Import the required libraries, load the dataset, handle missing values, encode categorical variables, and normalize the features.
 ### STEP 2: 
 
+Split the Dataset:
+
+Divide the dataset into training and testing sets.
 
 
 ### STEP 3: 
 
+Build the Neural Network:
 
+Create a Sequential model with an input layer, hidden layers using ReLU activation, and an output layer with Softmax activation for the four customer segments.
 
 ### STEP 4: 
 
+Train the Model:
+
+Compile the model using the Adam optimizer and categorical cross-entropy loss function, then train it using the training data.
 
 
 ### STEP 5: 
+Evaluate and Predict:
 
-
-
-### STEP 6: 
-
-
-
+Evaluate the model on the test dataset, measure its accuracy, and use it to predict the customer segment (A, B, C, or D) for new customers.
 
 
 ## PROGRAM
 
-### Name:
+### Name: GANANANTH H
 
-### Register Number:
+### Register Number: 212225230070
 
 ```
 
